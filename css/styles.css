@@ -31,6 +31,16 @@ img {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   color: red;
   font-size: 2.5rem;
@@ -66,7 +76,7 @@ h1 {
   font-weight: 400;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .h1 {
     font-size: 2.5rem;
   }
