@@ -9,14 +9,15 @@
 <body>
     <h1>Company Name</h1>
     <header>
-        <div class="container row" >
+        <div class="container" >
+            <div class="nav-container" >
             <button class="nav-toggle" aria-label="open navigation">
                 <span class="hamburger"></span>
             </button>
-            <a class="logo" href="#">
-                <img src="" alt="JayCam marketing site">
+            <a class="logo-container" href="#">
+                <img class="logo" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1697238863/www.jaycam.dev/jaycam-logo-horizontal-white_qwlrhj.svg" alt="JayCam logo">
             </a>
-            <nav class="nav">
+            <nav class="desktop-nav">
                 <div></div>
                 <ul class="nav__list nav__list--primary">
                     <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
@@ -27,10 +28,23 @@
                     <li class="nav__item"><a href="#" class="nav__link nav__link--button">Contact</a></li>
                 </ul>
             </nav>
+            <nav class="mobile-nav">
+                <div></div>
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                </ul>
+                <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--button">Contact</a></li>
+                </ul>
+            </nav>
+
+            </div>
         </div>
     </header>
 
-    
+
     <main>
         <div class="h1">Main Section</div>
     </main>
