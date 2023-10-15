@@ -146,7 +146,6 @@ header .nav-container .nav__link--button:hover {
   border: var(--light-color) solid 3px;
   background-color: var(--darkest-color);
   color: var(--light-color);
-  transition: ease-in 0.3s;
 }
 header .nav-container .nav__item {
   padding: 0.5em;
@@ -161,7 +160,6 @@ header .nav-container .nav-toggle {
   border-radius: 50%;
   background: var(--secondary-color);
   color: white;
-  transition: opacity 250ms ease;
   position: absolute;
   left: 0;
 }
@@ -203,6 +201,10 @@ header .nav-container .nav--visible {
   position: relative;
 }
 @media (min-width: 600px) {
+  header .logo-container .logo {
+    width: 400px;
+    height: auto;
+  }
   header .nav-toggle {
     display: none;
   }
