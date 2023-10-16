@@ -281,6 +281,8 @@ header {
 }
 
 main{
+    display: flex;
+    flex-direction: column;
 
     .hero-section {
         background-color: var(--primary-color);
@@ -288,31 +290,37 @@ main{
         display: flex;
         justify-content: center;
         color: var(--light-color); 
-
-        .container {
-            max-width: 100vw;
-            padding: .5rem; 
-            display: flex; 
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-    
-        button {
-            width: 100%; 
-        }
-    
-        .hero-a , .hero-b {
-            margin-bottom: 2rem;
-        }
-    
-        @media (min-width: 600px){
-            
-        }
-    
-     }
+            .container {
+                max-width: 100vw;
+                padding: .5rem; 
+                display: flex; 
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                button {
+                width: 100%; 
+                }
+                .hero-a , .hero-b {
+                    margin-bottom: 2rem;
+                }
+            }
 
 
+    }
+    .benefits-section{
+        background-color: var(--light-color);
+        width: 100%;
+            .container{
+                padding: 2rem; 
+                .col{
+                    .benefit-icon{
+                        width: 100px;
+                    }
+                }
+
+                
+            }
     }
 }
 @media (min-width: 600px){
@@ -322,24 +330,39 @@ main{
             align-items: center;
             justify-content: center;
 
-            .hero-section{
-                
+            .hero-section{ 
                 .container{
                     flex-direction: row;
                     justify-content: space-around;
                     padding: 2rem 0 4rem 0;
-                   
                     .hero-a , .hero-b {
                         width: 45%;
                         max-width: 800px;
                     }
                 }
-
-                
             }
 
-            
-           
+            .benefits-section{
+                .container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                        .benefits-cols-container{
+                            padding: 2rem; 
+                            display: flex;
+                            .col{
+                                max-width: 400px;
+                                padding: 2rem; 
+                                justify-content: center;
+                                align-items: center;
+
+                                p{
+                                    text-align: center;
+                                }
+                            }
+                        }
+                }
+            }  
         }
 }
 

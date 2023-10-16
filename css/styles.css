@@ -249,6 +249,10 @@ header .nav-container .nav--visible {
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
 main .hero-section {
   background-color: var(--primary-color);
   width: 100%;
@@ -271,6 +275,17 @@ main .hero-section .container button {
 main .hero-section .container .hero-a, main .hero-section .container .hero-b {
   margin-bottom: 2rem;
 }
+main .benefits-section {
+  background-color: var(--light-color);
+  width: 100%;
+}
+main .benefits-section .container {
+  padding: 2rem;
+}
+main .benefits-section .container .col .benefit-icon {
+  width: 100px;
+}
+
 @media (min-width: 600px) {
   main {
     display: flex;
@@ -285,6 +300,24 @@ main .hero-section .container .hero-a, main .hero-section .container .hero-b {
   main .hero-section .container .hero-a, main .hero-section .container .hero-b {
     width: 45%;
     max-width: 800px;
+  }
+  main .benefits-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .benefits-section .container .benefits-cols-container {
+    padding: 2rem;
+    display: flex;
+  }
+  main .benefits-section .container .benefits-cols-container .col {
+    max-width: 400px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  main .benefits-section .container .benefits-cols-container .col p {
+    text-align: center;
   }
 }
 
