@@ -346,9 +346,43 @@ main{
             .container{
                 padding: 2rem; 
                 color: var(--light-color); 
+                .cards-container{
+                    .card{
+                        background-color: white;
+                        color: var(--darkest-color);
+                        border-radius: 1rem;
+                        margin: .5rem; 
+                        padding: 1rem; 
+                        width: 250px;
+                        min-height: 375px;
+                        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+                        .row{
+                            align-items: center;
+                            margin-bottom: .5rem;
+                                .avatar{
+                                    width: 60px;
+                                    height: 60px;
+                                    margin: .25rem; 
+                                    img{
+                                        border-radius: 100%;
+                                    }
+                                }
+                                .name-position-container{
+                                    padding: 0; 
+                                    .paragraph{
+                                        margin:0; 
+                                    }
+                                    .paragraph:first-of-type{
+                                        color: var(--secondary-color);
+                                        font-weight: 700; 
+                                    }
+                                }
+                        }
+                    }
+                }
             }
     }
-    
+
 }
 @media (min-width: 600px){
         main{
@@ -400,6 +434,25 @@ main{
                             width: 62%;
                             height: 60vh;
                         }
+                    }
+                }
+            }
+
+            .testimonial-section{
+                display: flex;
+                .container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .cards-container{
+                        display: flex;
+                        flex-direction: row;
+                            .card{
+                                margin: 1rem; 
+                                width: 350px;
+                               
+                            }
                     }
                 }
             }
