@@ -431,10 +431,18 @@ main .contact-section .container .copy-calendly-container .copy-meet-pic .calend
   main .contact-section .container .copy-calendly-container {
     flex-direction: row;
     align-items: start;
+    justify-content: flex-start;
   }
-  main .contact-section .container .copy-calendly-container p {
+  main .contact-section .container .copy-calendly-container .copy-meet-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    max-width: 600px;
+    padding: 0.25rem;
+  }
+  main .contact-section .container .copy-calendly-container .copy-meet-pic p {
     font-weight: 700;
-    width: 50%;
     font-size: 1.5rem;
     color: var(--secondary-color);
   }

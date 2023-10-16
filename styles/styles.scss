@@ -415,21 +415,20 @@ main{
 }
 
 @media (min-width: 600px){
-        main{
-       
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
             .hero-section{ 
                 .container{
                     flex-direction: row;
                     justify-content: space-around;
                     padding: 2rem 0 4rem 0;
-                    .hero-a , .hero-b {
-                        width: 45%;
-                        max-width: 800px;
-                    }
+                        .hero-a , .hero-b {
+                            width: 45%;
+                            max-width: 800px;
+                        }
                 }
             }
 
@@ -446,9 +445,9 @@ main{
                                 padding: 2rem; 
                                 justify-content: center;
                                 align-items: center;
-                                p{
-                                    text-align: center;
-                                }
+                                    p{
+                                        text-align: center;
+                                    }
                             }
                         }
                 }
@@ -457,10 +456,9 @@ main{
             .about-section{
                 .container{
                     .col{
-                        
                         iframe {
                             min-height: 315px;
-                            min-width: 560px;
+                             min-width: 560px;
                             width: 62%;
                             height: 60vh;
                         }
@@ -483,7 +481,6 @@ main{
                             .card{
                                 margin: 1rem; 
                                 width: 350px;
-                               
                             }
                     }
                 }
@@ -497,18 +494,27 @@ main{
                             .copy-calendly-container{
                                 flex-direction: row;
                                 align-items: start;
-                                p{
-                                    font-weight: 700;
-                                    width: 50%;
-                                    font-size: 1.5rem;
-                                    color: var(--secondary-color)
-                                }
+                                justify-content: flex-start;
+                                    .copy-meet-pic{
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content:flex-start ;
+                                        align-items:self-start;
+                                        max-width: 600px;
+                                        padding:.25rem; 
+                                        p{
+                                            font-weight: 700;
+                                            font-size: 1.5rem;
+                                            color: var(--secondary-color)
+                                        }
+
+                                    }
                                 
-                            }
-                           
+                            }    
                     }
             }
-        }
+
+    }
 }
 
 
