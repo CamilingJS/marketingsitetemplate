@@ -342,6 +342,28 @@ main .testimonial-section .container .cards-container .card .row .name-position-
   color: var(--secondary-color);
   font-weight: 700;
 }
+main .contact-section {
+  padding: 2rem;
+}
+main .contact-section .container .copy-calendly-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .contact-section .container .copy-calendly-container .copy-meet-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .contact-section .container .copy-calendly-container .copy-meet-pic p {
+  font-weight: 700;
+}
+main .contact-section .container .copy-calendly-container .copy-meet-pic .calendly-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 600px) {
   main {
@@ -394,10 +416,27 @@ main .testimonial-section .container .cards-container .card .row .name-position-
   main .testimonial-section .container .cards-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   main .testimonial-section .container .cards-container .card {
     margin: 1rem;
     width: 350px;
+  }
+  main .contact-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .contact-section .container .copy-calendly-container {
+    flex-direction: row;
+    align-items: start;
+  }
+  main .contact-section .container .copy-calendly-container p {
+    font-weight: 700;
+    width: 50%;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
   }
 }
 

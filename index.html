@@ -25,7 +25,7 @@
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                 </ul>
                 <ul class="nav__list nav__list--secondary">
-                    <li class="nav__item"><a href="#" class="nav__link nav__link--button">Contact</a></li>
+                    <li class="nav__item"><a href="#contact-section" class="nav__link nav__link--button">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
@@ -48,7 +48,9 @@
             <div class="hero-a">
                 <h2 class="h1">Bookkeeping is simple when we take it off your hands.</h2>
                 <p class="paragraph">You'll love having quick, updated books, feeling secure with accurate financial reports, gaining valuable business insights, and facing tax season fearlessly.</p>
+                <a href="#contact-section">
                 <button>Book appointment</button>
+                </a>
             </div>
             <div class="hero-b">
                 <picture>
@@ -101,18 +103,28 @@
             <div id="cards-container" class="cards-container"></div>
         </div>
     </section>
-    <section class="contact-section">
+    <section id="contact-section" class="contact-section">
         <div class="container">
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/jaycamdev/initial-meet-greet" style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
+            <h2 class="h1">Let's chat and see how we can help!</h2>
+            <div class="copy-calendly-container">
+                <div class="copy-meet-pic">
+                        <p>Let's skip the back and forth and put something down on our calendars. We're happy to meet with you, no commitments required. </p>
+                        <picture> 
+                            <source srcset="https://res.cloudinary.com/dxctpvd8v/image/upload/v1697483704/Marketing-Site-Template/Meet-Chat-Pic-Mobile_smihjz.jpg" media="(orientation: portrait)" />
+                            <img src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1697483704/Marketing-Site-Template/Meet-Chat-Pic-Desktop_fcnq9x.jpg" alt="Strangers having coffee">
+                         </picture>
+                </div>
+                <div class="calendly-container">
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/jaycamdev/initial-meet-greet?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
+            </div>
         </div>
     </section>
-
-
     </main>
-    <footer></footer>
+    <footer>
+        
+    </footer>
     <script src="main.js" ></script>
 </body>
 </html>
