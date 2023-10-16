@@ -308,6 +308,7 @@ main{
 
 
     }
+
     .benefits-section{
         background-color: var(--light-color);
         width: 100%;
@@ -318,8 +319,33 @@ main{
                         width: 100px;
                     }
                 }
+            }
+    }
 
-                
+    .about-section{
+        width: 100%;
+        padding-bottom: 3rem;
+        .container{
+            padding: 3px; 
+                .col{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                        iframe {
+                            height: 156px;
+                            width: 280px;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        }
+                }
+        }
+    }
+
+    .testimonial-section{
+        width: 100%;
+        background-color: var(--third-color);
+            .container{
+                padding: 2rem; 
+                color: var(--light-color); 
             }
     }
 }
@@ -355,7 +381,6 @@ main{
                                 padding: 2rem; 
                                 justify-content: center;
                                 align-items: center;
-
                                 p{
                                     text-align: center;
                                 }
@@ -363,6 +388,20 @@ main{
                         }
                 }
             }  
+
+            .about-section{
+                .container{
+                    .col{
+                        
+                        iframe {
+                            min-height: 315px;
+                            min-width: 560px;
+                            width: 62%;
+                            height: 60vh;
+                        }
+                    }
+                }
+            }
         }
 }
 
