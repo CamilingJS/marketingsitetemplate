@@ -3,18 +3,18 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-}
-
 :root {
   --darkest-color: #0D1321;
   --primary-color: #1D2D44;
   --secondary-color: #3E5C76;
   --third-color: #748CAB;
   --light-color: #F0EBD8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -252,6 +252,7 @@ header .nav-container .nav--visible {
 main {
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 main .hero-section {
   background-color: var(--primary-color);
@@ -448,75 +449,9 @@ main .contact-section .container .copy-calendly-container .copy-meet-pic .calend
   }
 }
 footer {
-  background-color: var(--darkest-color);
-  color: var(--light-color);
-  padding: 1rem;
-  min-height: 60px;
-}
-footer .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-footer .container a {
-  text-decoration: none;
-  color: inherit;
-}
-footer .container .first-row {
-  display: flex;
-  flex-direction: column;
-}
-footer .container .first-row .footer-logo {
-  width: 160px;
-}
-footer .container .first-row .footer-links {
-  text-align: center;
-}
-footer .container .first-row .back-to-top {
-  text-align: center;
-}
-footer .container .first-row .back-to-top:hover {
-  background-color: var(--light-color);
-  color: var(--darkest-color);
-  transition: ease-in-out 0.3s;
-  padding: 0.25rem;
-  border-radius: 100px;
-}
-footer .container .last-row {
-  text-align: center;
-}
-@media (min-width: 600px) {
-  footer .container {
-    padding: 1rem;
-  }
-  footer .container .first-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  footer .container .first-row .footer-links {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: flex-start;
-    min-width: 400px;
-  }
-  footer .container .first-row .footer-links .footer-links-pt {
-    margin-left: 2rem;
-  }
-  footer .container .first-row .footer-links .footer-links-pt p:hover {
-    font-weight: 700;
-    transition: 0.3s ease-in-out;
-  }
-  footer .container .first-row .footer-logo {
-    width: 200px;
-    padding-right: 1rem;
-    display: flex;
-    justify-content: center;
-    border-right: 2px solid var(--light-color);
-  }
+  background-color: red;
+  width: 100%;
+  height: 300px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.map */

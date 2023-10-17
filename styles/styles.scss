@@ -20,6 +20,7 @@ body {
 
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -283,7 +284,6 @@ header {
 main{
     display: flex;
     flex-direction: column;
-
     .hero-section {
         background-color: var(--primary-color);
         width: 100%;
@@ -419,7 +419,6 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-
             .hero-section{ 
                 .container{
                     flex-direction: row;
@@ -514,6 +513,82 @@ main{
                     }
             }
 
+    }
+}
+
+footer{
+    background-color: var(--darkest-color);
+    color: var(--light-color); 
+    padding: 1rem; 
+    min-height: 60px;
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: inherit; 
+            }
+            .first-row{
+                display: flex;
+                flex-direction: column;
+                .footer-logo{
+                    width: 160px;
+                }
+                .footer-links{
+                    text-align: center;
+                }
+                .back-to-top{
+                    text-align: center;
+                }
+                .back-to-top:hover{
+                    background-color: var(--light-color);
+                    color: var(--darkest-color);
+                    transition: ease-in-out .3s; 
+                    padding: .25rem;
+                    border-radius: 100px;
+                }
+
+            }
+            .last-row{
+                text-align: center;
+            }
+            
+        }
+    @media (min-width: 600px){
+        .container{
+            padding: 1rem;
+            .first-row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                .footer-links{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: start;
+                    justify-content: flex-start;
+                    min-width: 400px;
+                    .footer-links-pt{
+                       margin-left: 2rem;
+                       p:hover{
+                        font-weight: 700;
+                        transition: .3s ease-in-out;
+                       }
+                    }
+
+                }
+                .footer-logo{
+                    width: 200px;
+                    padding-right: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    border-right: 2px solid var(--light-color);
+                }
+            }
+        }
     }
 }
 
