@@ -17,7 +17,7 @@
 #### In summary, GetMySite stands as a testament to meticulous web development, combining the power of semantic HTML, SASS/SCSS organization, responsive design, and strategic JavaScript implementation. This holistic approach not only ensures the site's accessibility and SEO friendliness but also provides visitors with an engaging and user-friendly experience, making it a valuable asset for businesses in the bookkeeping and service-related industry.
 
 ## Lessons Learned: 
-#### Developing GitMySite proved to be an invaluable learning experience, unveiling a plethora of insights in the realm of web development. Through extensive research and hands-on development, I not only honed my engineering skills but also delved deeply into the nuances of user interface (UI) and user experience (UX) design. This journey provided profound insights into how users can be enticed to actively engage with a website and even make purchases.
+#### Developing GetMySite proved to be an invaluable learning experience, unveiling a plethora of insights in the realm of web development. Through extensive research and hands-on development, I not only honed my engineering skills but also delved deeply into the nuances of user interface (UI) and user experience (UX) design. This journey provided profound insights into how users can be enticed to actively engage with a website and even make purchases.
 
 #### One key revelation pertained to the significance of the Hero section, where the emphasis lies in elucidating the reasons behind a user's visit and the potential outcomes of engaging with our services. By effectively communicating the 'whys' and the tangible results users could achieve by collaborating with us, we could significantly influence their decision-making processes. I discovered that pairing compelling images with concise descriptions of benefits captivated users, enticing them to delve deeper into the content.
 
@@ -27,7 +27,7 @@
 
 #### Additionally, integrating a seamless scheduling tool like Calendly was a game-changer. By eliminating friction in the scheduling process, we made it incredibly convenient for potential leads to connect with us. This frictionless interaction not only enhanced user experience but also significantly increased the number of valuable leads generated through the website.
 
-#### In essence, the process of developing GitMySite illuminated the intricate dynamics of user engagement. It taught me that the fusion of compelling visuals, persuasive content, authentic testimonials, and user-friendly tools is pivotal. This holistic approach not only draws users in but also keeps them engaged, fostering trust and ultimately driving meaningful interactions and conversions on the site.
+#### In essence, the process of developing GetMySite illuminated the intricate dynamics of user engagement. It taught me that the fusion of compelling visuals, persuasive content, authentic testimonials, and user-friendly tools is pivotal. This holistic approach not only draws users in but also keeps them engaged, fostering trust and ultimately driving meaningful interactions and conversions on the site.
 
 
 
