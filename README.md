@@ -2,7 +2,9 @@
 #### GetMySite is template landing page I created from scratch to be used as the initial format in order to build marketing sites for local small business and solo entrepreneurs.
 #### It is also used as a demo to showcase a potential outline for clients to view and be inspired on what I can build for them. 
 #### Live Demo: https://get-my-site.netlify.app/
-![Uploading GetMySite.gif…]()
+
+<img src="./media/GetMySite.webp" width="40%" alt="Scrolling down GetMySite app"/>
+
 ## How It's Made
 #### Tech used: HTML, SCSS, CSS, JavaSCript 
 #### GetMySite is marketing platform specifically tailored for businesses in the niche of bookkeeping and related services. One of its key strengths lies in its robust technical foundation. I meticulously crafted the website using foundational Semantics HTML, ensuring not only its accessibility but also enhancing its search engine optimization (SEO) capabilities. By incorporating semantic HTML, the website is structured in a way that clearly defines different sections and elements, making it easily understandable for both users and search engines.
