@@ -6,7 +6,7 @@
 <img src="./media/GetMySite.webp" width="40%" alt="Scrolling down GetMySite app"/>
 
 ## How It's Made
-#### Tech used: HTML, SCSS, CSS, JavaSCript 
+### Tech used: HTML, SCSS, CSS, JavaSCript 
 #### GetMySite is marketing platform specifically tailored for businesses in the niche of bookkeeping and related services. One of its key strengths lies in its robust technical foundation. I meticulously crafted the website using foundational Semantics HTML, ensuring not only its accessibility but also enhancing its search engine optimization (SEO) capabilities. By incorporating semantic HTML, the website is structured in a way that clearly defines different sections and elements, making it easily understandable for both users and search engines.
 #### To further enhance the website's aesthetics and functionality, I harnessed the power of SASS (Syntactically Awesome Stylesheets) or SCSS (Sassy CSS). This allowed me to efficiently organize the embedded CSS, ensuring a modular and maintainable codebase. The use of SASS/SCSS not only streamlines the development process but also facilitates easy collaboration and code readability.
 
